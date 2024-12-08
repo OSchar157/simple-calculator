@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Themed Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        
+        <div class="input-box" id="input-box">
+            <p id="ans" class="ans">Ans = 0</p>
+            <p id="input-value">0</p>
+        </div>
+
+        <div class="calculator-buttons">
+            <section>
+                <button class="button operator other-operator" id="operator-open-paren">(</button>
+                <button class="button operator other-operator" id="operator-close-paren">)</button>
+                <button class="button operator other-operator" id="operator-percent">%</button>
+                <button class="button operator other-operator current-clear" id="operator-clear">AC</button>
+            </section>
+
+            <section>
+                <button class="button number" id="number-7" value="7">7</button>
+                <button class="button number" id="number-8" value="8">8</button>
+                <button class="button number" id="number-9" value="9">9</button>
+                <button class="button operator main-operator" id="operator-divide">÷</button>
+            </section>
+            
+            <section>
+                <button class="button number" id="number-4" value="4">4</button>
+                <button class="button number" id="number-5" value="5">5</button>
+                <button class="button number" id="number-6" value="6">6</button>
+                <button class="button operator main-operator" id="operator-multiply">&times</button>
+            </section>
+            
+            <section>
+                <button class="button number" id="number-1" value="1">1</button>
+                <button class="button number" id="number-2" value="2">2</button>
+                <button class="button number" id="number-3" value="3">3</button>
+                <button class="button operator main-operator" id="operator-minus">-</button>
+            </section>
+            
+            <section>
+                <button class="button number" id="number-0" value="0">0</button>
+                <button class="button period" id="number-period" value=".">.</button>
+                <button class="button operator main-operator" id="operator-equals">=</button>
+                <button class="button operator main-operator" id="operator-plus">+</button>
+            </section>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

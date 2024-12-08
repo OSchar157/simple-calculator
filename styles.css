@@ -1,0 +1,75 @@
+/* MAIN BODY STYLES */
+body {
+    font-family: Roboto, arial, sans-serif;
+    transition: all .75s;
+}
+
+/* BUTTON STYLES */
+.button {
+    height: 3.75rem;
+    width: 7.75rem;
+    padding: .5rem;
+    margin: .2rem;
+    margin-top: .5rem;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.3rem;
+    color: #fffcf8;
+    cursor: pointer;
+    text-align: center;
+    transition: all .75s;
+}
+
+.operator {
+    background-color: #E86F68;
+}
+
+.operator:hover {
+    background-color: #fb9792;
+}
+
+.number {
+    background-color: #749EB2;
+}
+
+.number:hover {
+    background-color: #94cae3;
+}
+
+.period {
+    background-color: #749EB2;
+}
+
+.period:hover {
+    background-color: #94cae3;
+}
+
+#operator-equals {
+    background-color: #7f6e91;
+}
+
+#operator-equals:hover {
+    background-color: #a89ab7;
+}
+
+/* INPUT BOX STYLES*/
+.input-box {
+    width: 33rem;
+    color: #83B799;
+    text-align: right;
+    white-space: nowrap;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+#ans {
+    color: #83b799c3;
+    font-size: 1.3rem;
+}
+
+#input-value {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
